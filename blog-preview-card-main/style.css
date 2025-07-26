@@ -57,7 +57,7 @@ main{
 .label{
     background-color: var(--yellow);
     color: var(--dark-gray);
-    font-weight: bold;
+    font-weight: 900;
     padding: 4px 12px;
     border-radius: 4px;
 }
