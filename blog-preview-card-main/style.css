@@ -38,6 +38,8 @@ main{
     padding: 24px;
     border-radius: 20px;
     justify-content: space-between;
+    box-shadow: h-offset v-offset blur-radius spread-radius color;
+    box-shadow: 10px 10px var(--dark-gray);
 }
 
 .card-image{
