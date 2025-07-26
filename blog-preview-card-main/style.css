@@ -19,7 +19,6 @@ body{
     letter-spacing: 0;
     line-height: 150%;
     background-color: var(--yellow);
-    max-width: 750px;
     margin: 0 auto;
 }
 
