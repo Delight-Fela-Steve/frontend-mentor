@@ -31,7 +31,7 @@ main{
 
 .card{
     height: 522px;
-    width: 384px;
+    max-width: 384px;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -113,9 +113,9 @@ main{
 }
 
 
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 450px){
+
 .card{
-    height: 501px;
-    width: 327px;
+    width: 90%;
 }
 }
