@@ -22,15 +22,17 @@ body{
     font-size: 14px;
     background-color: var(--gray900);
     color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
-    
 }
 
 main{
-    margin: 5vh auto;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 520px;
     width: 350px;
     text-align: center;
     background-color: var(--gray800);
@@ -80,9 +82,11 @@ ul{
 
 
 .link:hover{
-    background-color: var(--green);
     cursor: pointer;
-    color:var(--gray900)
+    background-color: var(--green);
+    color: var(--white);
+    color:var(--gray900);
+
 }
 
 
